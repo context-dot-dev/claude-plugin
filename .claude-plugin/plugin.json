@@ -1,0 +1,24 @@
+{
+  "name": "context-dev",
+  "displayName": "Context.dev",
+  "version": "1.0.0",
+  "description": "Give Claude live web and document context through search, scraping, crawling, extraction, parsing, brand intelligence, monitors, and batches.",
+  "author": {
+    "name": "Context.dev",
+    "email": "hello@context.dev"
+  },
+  "homepage": "https://docs.context.dev",
+  "repository": "https://github.com/context-dot-dev/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "context-dev",
+    "web-search",
+    "web-scraping",
+    "structured-extraction",
+    "document-parsing",
+    "brand-intelligence",
+    "monitoring",
+    "batches",
+    "mcp"
+  ]
+}
