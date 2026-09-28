@@ -1,6 +1,6 @@
 # Context.dev for Claude
 
-The official [Context.dev](https://context.dev) plugin for Claude. Search the live web, scrape and crawl sites, extract structured data, parse documents, retrieve brand intelligence, monitor website changes, and run large asynchronous batches.
+The official [Context.dev](https://context.dev) plugin for Claude. Search and research the live web, scrape and crawl sites, extract structured data, parse documents, retrieve brand and people intelligence, inspect API request logs, monitor website changes, and run large asynchronous batches.
 
 ## Install
 
@@ -34,10 +34,10 @@ Use Context.dev to retrieve the brand profile for linear.app, including its logo
 
 ## Included
 
-- The production Context.dev MCP server at `https://mcp.context.dev/mcp`
+- The production Context.dev MCP server with 40 direct, typed tools at `https://mcp.context.dev/mcp`
 - OAuth authentication through Context.dev
 - Guidance that routes each request to the smallest suitable Context.dev tool
-- Search, news, scraping, crawling, extraction, parsing, brand, screenshot, monitor, and batch workflows
+- Search, sourced answers, news, scraping, crawling, extraction, parsing, brand, people, screenshot, request-log, monitor, webhook, feedback, and batch workflows
 
 ## Links
 

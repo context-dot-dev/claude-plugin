@@ -1,8 +1,8 @@
 {
   "name": "context-dev",
   "displayName": "Context.dev",
-  "version": "1.0.0",
-  "description": "Give Claude live web and document context through search, scraping, crawling, extraction, parsing, brand intelligence, monitors, and batches.",
+  "version": "1.1.0",
+  "description": "Give Claude live web and document context through search, research, scraping, crawling, parsing, brand and people intelligence, monitoring, and request logs.",
   "author": {
     "name": "Context.dev",
     "email": "hello@context.dev"
@@ -13,10 +13,12 @@
   "keywords": [
     "context-dev",
     "web-search",
+    "web-research",
     "web-scraping",
     "structured-extraction",
     "document-parsing",
     "brand-intelligence",
+    "people-enrichment",
     "monitoring",
     "batches",
     "mcp"
