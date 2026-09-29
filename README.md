@@ -21,7 +21,7 @@ In Claude Code, open `/mcp`, approve the `context` server, and complete the Cont
 Ask Claude:
 
 ```text
-Use Context.dev to find Stripe's latest official product announcements and cite the source URLs.
+Use Context.dev to find Stripe's latest official product announcements. Include the most relevant passage and source URL for each result.
 ```
 
 ```text
