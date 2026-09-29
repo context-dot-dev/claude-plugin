@@ -10,7 +10,7 @@ Use the connected Context.dev tools to retrieve current public web and document 
 ## Choose the right tool
 
 - Use `get-news-search` for current, verified news about one company.
-- Use `web-search` for ranked live-web results. Use `web-answers` for a sourced answer in a requested JSON shape.
+- Use `web-search` for ranked live-web results. Enable `highlightsOptions` for relevant source passages or `markdownOptions` for complete page content. Use `web-answers` for a sourced answer in a requested JSON shape.
 - Use `web-scrape` for one known page. Request only the needed outputs with `formats`, such as `{ markdown: true }`, `{ screenshot: true }`, or `{ json: true }` with `jsonParams.schema`.
 - Use `web-map` to discover or filter a site's URLs without downloading every page body.
 - Use `web-crawl` for a focused set of linked pages when the result is needed synchronously.
