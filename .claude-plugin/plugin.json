@@ -1,8 +1,8 @@
 {
   "name": "context-dev",
   "displayName": "Context.dev",
-  "version": "1.2.0",
-  "description": "Give Claude live web and document context through search, research, scraping, crawling, parsing, brand and people intelligence, monitoring, and request logs.",
+  "version": "1.3.0",
+  "description": "Give Claude live web and document context through search, research, scraping, crawling, parsing, brand and people intelligence, monitoring, usage, and request logs.",
   "author": {
     "name": "Context.dev",
     "email": "hello@context.dev"

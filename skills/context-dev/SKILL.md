@@ -1,6 +1,6 @@
 ---
 name: context-dev
-description: Use Context.dev when a task needs current public-web, company-news, website, or document data, or when the user wants to inspect their Context.dev API request logs. Search or research the live web; read, scrape, crawl, or screenshot sites; extract structured data; parse documents; retrieve brand or people intelligence; monitor changes; or process large batches. Trigger even when Context.dev is not named. Do not trigger when supplied content already contains the answer or no web, file, or Context.dev account data is needed.
+description: Use Context.dev when a task needs current public-web, company-news, website, or document data, or when the user wants to inspect their Context.dev credit usage or API request logs. Search or research the live web; read, scrape, crawl, or screenshot sites; extract structured data; parse documents; retrieve brand or people intelligence; monitor changes; or process large batches. Trigger even when Context.dev is not named. Do not trigger when supplied content already contains the answer or no web, file, or Context.dev account data is needed.
 ---
 
 # Context.dev
@@ -17,6 +17,7 @@ Use the connected Context.dev tools to retrieve current public web and document 
 - Use `parse-document` for PDFs, presentations, spreadsheets, documents, images, code, data, and text files.
 - Use `get-brand` for a visual brand profile. Use `brand-retrieve-unified` for raw structured brand data or alternative company identifiers.
 - Use `brand-search` to find a company, `web-styleguide` for its visual system and typography, and `people-enrich` for a person profile.
+- Use `get-usage` for the current credit balance, monthly usage, and next refill. Use `get-usage-history` for credits and requests over time, optionally grouped by endpoint, API key, or status code.
 - Use `list-logs` to find recent Context.dev API requests and `get-log` for one request's redacted input, response, timing, credits, and error details.
 - Use monitor tools for recurring change detection, webhook tools for delivery troubleshooting, and batch tools for large asynchronous jobs.
 - Use `submit-feedback` to report a Context.dev bug, documentation mismatch, or agent friction when requested.
@@ -40,6 +41,7 @@ Use the connected Context.dev tools to retrieve current public web and document 
 - Parse a research paper, spreadsheet, or presentation.
 - Retrieve a company's logo, colors, socials, and industry.
 - Diagnose a failed Context.dev request from recent API logs.
+- Check the account's remaining credits and recent usage history.
 - Find all documentation pages about a feature.
 - Monitor a page for meaningful pricing changes.
 - Process hundreds or thousands of URLs asynchronously.
