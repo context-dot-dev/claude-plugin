@@ -1,6 +1,6 @@
 # Context.dev for Claude
 
-The official [Context.dev](https://context.dev) plugin for Claude. Search and research the live web, scrape and crawl sites, extract structured data, parse documents, retrieve brand and people intelligence, inspect account usage and API request logs, monitor website changes, and run large asynchronous batches.
+The official [Context.dev](https://context.dev) plugin for Claude. Search and research the live web, search news by topic or company, scrape and crawl sites, extract structured data, parse documents, retrieve brand intelligence, find companies and people, inspect account usage and API request logs, monitor website changes, and run large asynchronous batches.
 
 ## Install
 
@@ -32,17 +32,22 @@ Use Context.dev to extract every pricing plan from https://www.context.dev/prici
 Use Context.dev to retrieve the brand profile for linear.app, including its logo, colors, fonts, and social profiles.
 ```
 
+```text
+Use Context.dev to find Series B solar startups in California. List each company's domain, headcount, and funding.
+```
+
 ## Included
 
-- The production Context.dev MCP server with 42 direct, typed tools at `https://mcp.context.dev/mcp`
+- The production Context.dev MCP server with 45 direct, typed tools at `https://mcp.context.dev/mcp`
 - OAuth authentication through Context.dev
 - Guidance that routes each request to the smallest suitable Context.dev tool
-- Search, sourced answers, news, scraping, crawling, extraction, parsing, brand, people, screenshot, usage, request-log, monitor, webhook, feedback, and batch workflows
+- Search, sourced answers, topic and company news, scraping, crawling, extraction, parsing, brand, company and people search, people enrichment, browser profile, screenshot, usage, request-log, monitor, webhook, feedback, and batch workflows
 
 ## Links
 
 - [Context.dev documentation](https://docs.context.dev)
 - [Context.dev API reference](https://docs.context.dev/llms.txt)
+- [Privacy policy](https://www.context.dev/privacy)
 - [Support](mailto:support@context.dev)
 
 ## License
