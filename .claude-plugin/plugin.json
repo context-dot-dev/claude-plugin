@@ -10,6 +10,8 @@
   "homepage": "https://docs.context.dev",
   "repository": "https://github.com/context-dot-dev/claude-plugin",
   "license": "MIT",
+  "privacyPolicyUrl": "https://www.context.dev/privacy",
+  "icon": "./assets/icon.png",
   "keywords": [
     "context-dev",
     "web-search",

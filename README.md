@@ -47,6 +47,7 @@ Use Context.dev to find Series B solar startups in California. List each company
 
 - [Context.dev documentation](https://docs.context.dev)
 - [Context.dev API reference](https://docs.context.dev/llms.txt)
+- [Privacy policy](https://www.context.dev/privacy)
 - [Support](mailto:support@context.dev)
 
 ## License
