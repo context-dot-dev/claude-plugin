@@ -1,7 +1,7 @@
 {
   "name": "context-dev",
   "displayName": "Context.dev",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Give Claude live web and document context through search, research, scraping, crawling, parsing, brand, company and people intelligence, monitoring, usage, and request logs.",
   "author": {
     "name": "Context.dev",
@@ -10,6 +10,7 @@
   "homepage": "https://docs.context.dev",
   "repository": "https://github.com/context-dot-dev/claude-plugin",
   "license": "MIT",
+  "privacyPolicyUrl": "https://www.context.dev/privacy",
   "keywords": [
     "context-dev",
     "web-search",

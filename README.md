@@ -34,10 +34,14 @@ Use Context.dev to retrieve the brand profile for linear.app, including its logo
 
 ## Included
 
-- The production Context.dev MCP server with 45 tools at `https://mcp.context.dev/mcp?profile=claude`
+- The production Context.dev MCP server with 51 tools at `https://mcp.context.dev/mcp?profile=claude`
 - OAuth authentication through Context.dev
 - Guidance that routes each request to the smallest suitable Context.dev tool
 - Search, sourced answers, news, scraping, crawling, extraction, parsing, brand, company, people, screenshot, usage, request-log, monitor, webhook, feedback, and batch workflows
+
+## People data
+
+The people tools return professional information, including work emails, collected from public sources and licensed data providers under our legitimate interest in providing business data. To have your information removed, email [privacy@context.dev](mailto:privacy@context.dev); see our [privacy policy](https://www.context.dev/privacy).
 
 ## Links
 
