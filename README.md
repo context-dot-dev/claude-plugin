@@ -41,33 +41,13 @@ Use Context.dev to retrieve the brand profile for linear.app, including its logo
 
 ## People data
 
-The people tools (`people-search` and `people-enrich`) return professional information about named people: name, job title, employer, work history, education, skills, general location, and links to public professional and social profiles. `people-enrich` can also return a work email address. The brand and company tools can return a company's public contact details.
-
-- **Sources:** publicly available sources, such as websites, public profiles, and news, and licensed third-party data providers.
-- **Legal basis:** Context.dev's legitimate interests, and its customers' legitimate interests, in providing and using business information. Customers may not use the data for decisions about a person's eligibility for credit, employment, insurance, or housing.
-- **Removal:** anyone can ask to see, correct, or delete their information, or to stop being included, by emailing [privacy@context.dev](mailto:privacy@context.dev) with their name and the profile URLs or email addresses the request relates to.
-
-Details are in section 3 of the [Context.dev privacy policy](https://www.context.dev/privacy).
-
-## Data and privacy
-
-The plugin connects to one service, the Context.dev MCP server at `https://mcp.context.dev`, and installs nothing on your machine. When Claude calls a Context.dev tool, the request you ask for, such as a URL, search query, schema, or file, is sent to Context.dev to fetch, process, and return the result, and is billed to your Context.dev account. Sign-in uses Context.dev OAuth, so no API key is stored in Claude.
-
-Context.dev keeps request logs to operate, secure, bill for, and improve the service, which can include training the models it uses. Requests made with zero data retention (`zdr`) are processed without keeping their content. The [privacy policy](https://www.context.dev/privacy) covers collection, use, and retention in full.
-
-## Troubleshooting
-
-- **Sign-in fails or tools are missing:** in Claude Code, open `/mcp` and reconnect `context`; in Claude, disconnect and reconnect the connector.
-- **`USAGE_EXCEEDED` or `RATE_LIMITED`:** ask Claude to run `get-usage` to see your credit balance, next refill, and request limits.
-- **A request failed:** ask Claude to run `list-logs` with errors only, then `get-log` with the request ID for the full error.
+The people tools return professional information, including work emails, collected from public sources and licensed data providers under our legitimate interest in providing business data. To have your information removed, email [privacy@context.dev](mailto:privacy@context.dev); see our [privacy policy](https://www.context.dev/privacy).
 
 ## Links
 
 - [Context.dev documentation](https://docs.context.dev)
 - [Context.dev API reference](https://docs.context.dev/llms.txt)
-- [Privacy policy](https://www.context.dev/privacy)
-- Support: [support@context.dev](mailto:support@context.dev)
-- Security reports: [hello@context.dev](mailto:hello@context.dev) with the subject "Context MCP security report"
+- [Support](mailto:support@context.dev)
 
 ## License
 
