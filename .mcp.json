@@ -2,7 +2,7 @@
   "mcpServers": {
     "context": {
       "type": "http",
-      "url": "https://mcp.context.dev/mcp"
+      "url": "https://mcp.context.dev/mcp?profile=claude"
     }
   }
 }
